@@ -35,5 +35,4 @@ jobs:
       
     - name: Publishing Allure artifact to GitHub Actions
         uses: actions/upload-artifact@v2
-        with:
-          path: allure-report
+
