@@ -3,7 +3,8 @@
 
 Application under test: [Restful Booker](https://github.com/vikasg52/api-automation-pactumjs-jest-by-vikasgarg) 
 API framework: [PactumJS](https://pactumjs.github.io/)  
-Testing framework: [Mocha](https://jestjs.io//)  
+Testing framework: [Jest](https://jestjs.io//)  
+Reporting Framework: [Allure] (https://docs.qameta.io/allure/)
 
 ## How to run tests
 Install artifacts: `npm install`  
