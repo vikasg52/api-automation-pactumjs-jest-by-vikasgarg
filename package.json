@@ -8,7 +8,7 @@
     "smoke": "npx jest **/regression",
     "test:sanity":"jest  --testNamePattern=DevTest",
     "run-3": "npx jest getBookingIDs.js  createToken.js getBooking.js",
-    "report": "allure generate --clean && allure open"
+    "report": "allure generate --clean"
   },
   "jest": {
     "testEnvironment": "node",
