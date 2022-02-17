@@ -31,6 +31,14 @@ jobs:
     - run: npm run smoke
     - run: npm install -g allure-commandline --save-dev
     - run: npm run report
-  
+  - name: Post the link to the report
+    if: always()
+    uses: Sibz/github-status-action@v1
+    with: 
+      authToken: ${{secrets.GITHUB_TOKEN}}
+      context: 'Test report'
+      state: 'success'
+      sha: ${{ github.event.pull_request.head.sha }}
+      target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
 
 
