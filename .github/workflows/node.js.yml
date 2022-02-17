@@ -32,7 +32,7 @@ jobs:
     - run: npm install -g allure-commandline --save-dev
     - run: npm run report
 
-    steps:
+
     - uses: actions/upload-artifact@master
     - name: publish report
        with:
