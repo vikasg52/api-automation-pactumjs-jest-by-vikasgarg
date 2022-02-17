@@ -32,7 +32,7 @@ jobs:
     - run: npm install -g allure-commandline --save-dev
     - run: npm run report
 
-
+    steps:
     - uses: actions/upload-artifact@master
     - name: publish report
        with:
@@ -40,24 +40,24 @@ jobs:
         path: allure-results
         retention-days: 20
 
-    - name: publish report2    
-    - uses: actions/checkout@v2
-       if: always()
-       continue-on-error: true
-       with:
-        ref: gh-pages
-        path: gh-pages
+    # - name: publish report2    
+    # - uses: actions/checkout@v2
+    #    if: always()
+    #    continue-on-error: true
+    #    with:
+    #     ref: gh-pages
+    #     path: gh-pages
 
-    - name: publish report3 
-    - uses: simple-elf/allure-report-action@master
-      if: always()
-      id: allure-report
-      with:
-        allure_results: allure-results
-        gh_pages: gh-pages
-        allure_report: allure-report
-        allure_history: allure-history
-        keep_reports: 20
+    # - name: publish report3 
+    # - uses: simple-elf/allure-report-action@master
+    #   if: always()
+    #   id: allure-report
+    #   with:
+    #     allure_results: allure-results
+    #     gh_pages: gh-pages
+    #     allure_report: allure-report
+    #     allure_history: allure-history
+    #     keep_reports: 20
 
     # - name: Deploy report to Github Pages
     #   if: always()
