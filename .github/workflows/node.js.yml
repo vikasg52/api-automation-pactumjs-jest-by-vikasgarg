@@ -35,4 +35,3 @@ jobs:
     - name: Post the link to the report
       if: always()
       uses: Sibz/github-status-action@v1
-      context: 'Test report'
