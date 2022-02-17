@@ -1,0 +1,451 @@
+{
+  "d3e28335-18da-5c5b-b538-1b79b6b8c9da" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "20ba6aa15eae255a",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  200\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 200\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979532,
+        "stop" : 1645089979535,
+        "duration" : 3
+      }
+    } ]
+  },
+  "81d9bea6-af4c-5a27-976d-e59c998b5c1a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d53da07e1e3ccd23",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  51\nReceived:\n  26\n\nMessage:\n  JSON Length 26 !== 51\n    at Expect._validateJsonLength (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:367:16)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:62:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979509,
+        "stop" : 1645089980587,
+        "duration" : 1078
+      }
+    } ]
+  },
+  "24f86cc5-bde5-53e1-ae60-f3ffefca8bfe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89475b8527680503",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089981240,
+        "stop" : 1645089981940,
+        "duration" : 700
+      }
+    } ]
+  },
+  "be097ec6-a1f6-5a80-820d-377e6aa1f59f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16cd53f0e4feaa45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089980496,
+        "stop" : 1645089981228,
+        "duration" : 732
+      }
+    } ]
+  },
+  "b36d074a-5a8f-5b53-ae1b-598cf39f39d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab11eff8793122fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089979469,
+        "stop" : 1645089980523,
+        "duration" : 1054
+      }
+    } ]
+  },
+  "c8ba164c-c3d0-515a-ba8a-d4e05ad06b30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5cf0f84693f0853",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089983713,
+        "stop" : 1645089984544,
+        "duration" : 831
+      }
+    } ]
+  },
+  "99c3f580-d098-5884-b60e-2caf537055b1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd3778a893357907",
+      "status" : "failed",
+      "statusDetails" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  [{\"bookingid\": 33}]\nReceived:\n  []\n\nDifference:\n\n- Expected\n+ Received\n\n- Array [\n-   Object {\n-     \"bookingid\": 33,\n-   },\n- ]\n+ Array []\n    at Expect._validateJson (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089981360,
+        "stop" : 1645089982097,
+        "duration" : 737
+      }
+    } ]
+  },
+  "afb0b17d-5446-5e86-a37e-44782ef89092" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "479aecd9a11cfcc2",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  405\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 405\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979538,
+        "stop" : 1645089979540,
+        "duration" : 2
+      }
+    } ]
+  },
+  "d7da1990-e35c-5b42-b54f-975552e3a5f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24d10c2a1e3047b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089980505,
+        "stop" : 1645089981239,
+        "duration" : 734
+      }
+    } ]
+  },
+  "b20a4389-509e-558e-a53d-af4c13fe7f4b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b8ace5e2bc156e28",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  405\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 405\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979501,
+        "stop" : 1645089979504,
+        "duration" : 3
+      }
+    } ]
+  },
+  "b19b8509-1bd0-5801-b4b9-64e1275fa32e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4deb2291853fe46e",
+      "status" : "failed",
+      "statusDetails" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  [{\"bookingid\": 33}]\nReceived:\n  []\n\nDifference:\n\n- Expected\n+ Received\n\n- Array [\n-   Object {\n-     \"bookingid\": 33,\n-   },\n- ]\n+ Array []\n    at Expect._validateJson (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089982098,
+        "stop" : 1645089982878,
+        "duration" : 780
+      }
+    } ]
+  },
+  "7e230498-f673-5558-8778-c4ae94f1504f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7817427ab2455b7",
+      "status" : "failed",
+      "statusDetails" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2019-01-01\", \"checkout\": \"2020-06-23\"}, \"depositpaid\": false, \"firstname\": \"Mary\", \"lastname\": \"Jones\", \"totalprice\": 238}\nReceived:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2017-12-20\", \"checkout\": \"2018-06-11\"}, \"depositpaid\": true, \"firstname\": \"Mark\", \"lastname\": \"Ericsson\", \"totalprice\": 756}\n\nDifference:\n\n- Expected\n+ Received\n\n  Object {\n    \"additionalneeds\": \"Breakfast\",\n    \"bookingdates\": Object {\n-     \"checkin\": \"2019-01-01\",\n-     \"checkout\": \"2020-06-23\",\n+     \"checkin\": \"2017-12-20\",\n+     \"checkout\": \"2018-06-11\",\n    },\n-   \"depositpaid\": false,\n-   \"firstname\": \"Mary\",\n-   \"lastname\": \"Jones\",\n-   \"totalprice\": 238,\n+   \"depositpaid\": true,\n+   \"firstname\": \"Mark\",\n+   \"lastname\": \"Ericsson\",\n+   \"totalprice\": 756,\n  }\n    at Expect._validateJson (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979471,
+        "stop" : 1645089980524,
+        "duration" : 1053
+      }
+    } ]
+  },
+  "bbe2e7bd-8db0-58ce-8d89-20ea6ab3c10c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25c8e7ff4d8d5d1e",
+      "status" : "failed",
+      "statusDetails" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  [{\"bookingid\": 33}]\nReceived:\n  []\n\nDifference:\n\n- Expected\n+ Received\n\n- Array [\n-   Object {\n-     \"bookingid\": 33,\n-   },\n- ]\n+ Array []\n    at Expect._validateJson (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089980587,
+        "stop" : 1645089981359,
+        "duration" : 772
+      }
+    } ]
+  },
+  "a20cbb36-dee8-5410-bb5d-aaf07f64b73b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c5997fd28177dc8",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  200\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 200\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979511,
+        "stop" : 1645089979529,
+        "duration" : 18
+      }
+    } ]
+  },
+  "383f48aa-0c00-59a7-9982-6f1850aba245" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d165da456d21a85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089979471,
+        "stop" : 1645089980505,
+        "duration" : 1034
+      }
+    } ]
+  },
+  "f6f480fc-a01f-5ada-9ddf-b935fe481d3d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79a1ee1957643765",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  200\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 200\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979530,
+        "stop" : 1645089979532,
+        "duration" : 2
+      }
+    } ]
+  },
+  "292ccf97-35c3-5f97-970f-423e6ba604b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26996590afbe946",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089981220,
+        "stop" : 1645089981990,
+        "duration" : 770
+      }
+    } ]
+  },
+  "ccfd8597-a583-5d4d-82c8-1346ec3da50a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0495f30a084d0d0",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  200\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 200\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979475,
+        "stop" : 1645089979501,
+        "duration" : 26
+      }
+    } ]
+  },
+  "0461e675-c28e-564a-af18-4c643d2e4106" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e910363958bae07f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089980524,
+        "stop" : 1645089981256,
+        "duration" : 732
+      }
+    } ]
+  },
+  "54fbc4ec-eb7e-5d8a-9544-3ffbb1b23760" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae9b6084815cde16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089982879,
+        "stop" : 1645089983712,
+        "duration" : 833
+      }
+    } ]
+  },
+  "2ca20212-aece-53d6-a542-6acebf2d46e8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1c73dd28286a9d3",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  200\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 200\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/Users/cb/Documents/js-automation/test-automation-bucket-part2-examples-main/API/PactumJS-Mocha-RestfulBooker/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645089979536,
+        "stop" : 1645089979538,
+        "duration" : 2
+      }
+    } ]
+  },
+  "0280d6c3-cd76-5a8a-89d0-0fcafd34c656" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "403c1ab81c02bdd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089980524,
+        "stop" : 1645089981220,
+        "duration" : 696
+      }
+    } ]
+  },
+  "95ba28e3-4351-54da-a613-18d4a53a591a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0194542f6dca9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645089979471,
+        "stop" : 1645089980495,
+        "duration" : 1024
+      }
+    } ]
+  }
+}

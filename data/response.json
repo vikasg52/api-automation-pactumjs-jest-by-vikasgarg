@@ -1,0 +1,8 @@
+{
+  "allBookingsLength": 51,
+  "validBookingIDFirstnameLastname": 33,
+  "validBookingIDCheckinCheckoutDate": 12,
+  "emptyAcceptHeaderMessage": "I'm a teapot",
+  "invalidIDMessage": "Not Found",
+  "badCredentialsMessage": "Bad credentials"
+}

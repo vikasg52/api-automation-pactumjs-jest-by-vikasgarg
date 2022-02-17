@@ -1,0 +1,53 @@
+{
+  "uid" : "c6a945ad0b75d706",
+  "name" : "Get specific valid ID without Accept header",
+  "fullName" : "test  suite4 Get specific valid ID without Accept header",
+  "historyId" : "0280d6c3-cd76-5a8a-89d0-0fcafd34c656",
+  "time" : {
+    "start" : 1645018905857,
+    "stop" : 1645018905857,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "07"
+  }, {
+    "name" : "package",
+    "value" : "test  suite4"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite4"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "CBs-MacBook-Pro.local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6a945ad0b75d706.json",
+  "parameterValues" : [ ]
+}

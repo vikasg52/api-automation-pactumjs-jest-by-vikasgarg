@@ -1,0 +1,52 @@
+{
+  "uid" : "6759cd4e137cb553",
+  "name" : "(DevTest):Create token - invalid username",
+  "fullName" : "test  suite2 (DevTest):Create token - invalid username",
+  "historyId" : "d7da1990-e35c-5b42-b54f-975552e3a5f5",
+  "time" : {
+    "start" : 1645018905854,
+    "stop" : 1645018907016,
+    "duration" : 1162
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "02"
+  }, {
+    "name" : "package",
+    "value" : "test  suite2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite2"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "CBs-MacBook-Pro.local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6759cd4e137cb553.json",
+  "parameterValues" : [ ]
+}

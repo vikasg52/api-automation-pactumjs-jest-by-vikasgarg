@@ -1,0 +1,10 @@
+{
+  "existentFirstname": "Vikas9",
+  "existentLastname": "Kumar1",
+  "existentCheckinDate": "2020-11-01",
+  "existentCheckoutDate": "2020-11-03",
+  "nonExistentFirstname": "Henry",
+  "nonExistentLastname": "James",
+  "nonExistentCheckinDate": "2013-03-01",
+  "nonExistentCheckoutDate": "2015-07-20"
+}

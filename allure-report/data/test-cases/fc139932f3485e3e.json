@@ -1,0 +1,53 @@
+{
+  "uid" : "fc139932f3485e3e",
+  "name" : "Partial update booking - non-existent booking",
+  "fullName" : "test  suite5 Partial update booking - non-existent booking",
+  "historyId" : "afb0b17d-5446-5e86-a37e-44782ef89092",
+  "time" : {
+    "start" : 1645018905791,
+    "stop" : 1645018905794,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "03"
+  }, {
+    "name" : "package",
+    "value" : "test  suite5"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite5"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "CBs-MacBook-Pro.local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc139932f3485e3e.json",
+  "parameterValues" : [ ]
+}

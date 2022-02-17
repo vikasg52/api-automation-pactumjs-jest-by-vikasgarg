@@ -1,0 +1,34 @@
+{
+  "name": "pactumjs-mocha-restfulbooker",
+  "version": "1.0.0",
+  "description": "Sample PactumJS API testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:smoke": "npx jest **/regression",
+    "test:sanity":"jest  --testNamePattern=DevTest",
+    "run-3": "npx jest getBookingIDs.js  createToken.js getBooking.js",
+    "report": "allure generate --clean && allure open"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "testRunner": "jest-jasmine2",
+    "setupFilesAfterEnv": [
+      "jest-allure2-adapter/dist/setup-default"
+    ]
+  },
+  "author": "Vikas Garg",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "jest-allure2-adapter": "^0.3.11",
+    "jest-cli": "^27.5.1",
+    "mocha": "^9.2.0",
+    "mochawesome": "^7.0.1",
+    "pactum": "^3.0.21"
+  },
+  "dependencies": {
+    "jest-html-reporter": "^3.4.2"
+  }
+}

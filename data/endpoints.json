@@ -1,0 +1,9 @@
+{
+  "baseUrl":"https://restful-booker.herokuapp.com",
+  "booking": "/booking",
+  "delete": "/booking",
+  "validID": "/4",
+  "updateID": "/3",
+  "invalidID": "/909",
+  "getToken": "/auth"
+}

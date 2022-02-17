@@ -1,0 +1,53 @@
+{
+  "uid" : "4e6eba26a73790d5",
+  "name" : "Update booking - non-existent",
+  "fullName" : "test  suite6 Update booking - non-existent",
+  "historyId" : "b20a4389-509e-558e-a53d-af4c13fe7f4b",
+  "time" : {
+    "start" : 1645018905776,
+    "stop" : 1645018905777,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "05"
+  }, {
+    "name" : "package",
+    "value" : "test  suite6"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite6"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "CBs-MacBook-Pro.local"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e6eba26a73790d5.json",
+  "parameterValues" : [ ]
+}
