@@ -35,10 +35,7 @@ jobs:
 
     - uses: actions/upload-artifact@master
     - name: publish report
-    - with:
-        name: allure-results
-        path: allure-results
-        retention-days: 20
+    
 
     # - name: publish report2    
     # - uses: actions/checkout@v2
