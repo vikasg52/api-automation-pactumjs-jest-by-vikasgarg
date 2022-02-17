@@ -8,7 +8,6 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-
 jobs:
   build:
 
@@ -41,5 +40,3 @@ jobs:
       state: 'success'
       sha: ${{ github.event.pull_request.head.sha }}
       target_url: simple-elf.github.io/github-allure-history/${{ github.run_number }}
-
-
