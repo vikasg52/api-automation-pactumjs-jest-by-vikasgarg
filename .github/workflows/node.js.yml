@@ -31,6 +31,10 @@ jobs:
     - run: npm run smoke
     - run: npm install -g allure-commandline --save-dev
     - run: npm run report
-
-docker pull kochetkovma/allure-server:latest
-docker run -p 8080:8080 kochetkovma/allure-server:latest
+    - run: allure generate output/
+      
+    - name: Publishing Allure artifact to GitHub Actions
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-report
+          path: allure-report
