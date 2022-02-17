@@ -31,20 +31,23 @@ jobs:
     - run: npm run smoke
     - run: npm install -g allure-commandline --save-dev
     - run: npm run report
-  
+    
+    - name: publish report
     - uses: actions/upload-artifact@master
        with:
         name: allure-results
         path: allure-results
         retention-days: 20
-        
+
+    - name: publish report2    
     - uses: actions/checkout@v2
        if: always()
        continue-on-error: true
        with:
         ref: gh-pages
         path: gh-pages
-    
+        
+    - name: publish report3 
     - uses: simple-elf/allure-report-action@master
       if: always()
       id: allure-report
