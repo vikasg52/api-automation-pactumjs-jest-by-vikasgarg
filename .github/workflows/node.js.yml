@@ -31,6 +31,7 @@ jobs:
     - run: npm run smoke
     - run: npm install -g allure-commandline --save-dev
     - run: npm run report
+  
   - name: Post the link to the report
     if: always()
     uses: Sibz/github-status-action@v1
