@@ -29,4 +29,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm run smoke
+    - run: npm install -g allure-commandline --save-dev
     - run: npm run report
