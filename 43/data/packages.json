@@ -4,26 +4,26 @@
     "name" : "test  suite1",
     "children" : [ {
       "name" : "DevTest)Create valid booking",
-      "uid" : "113c80a8b7c5153f",
+      "uid" : "1523c3d5236002f4",
       "parentUid" : "7e9b3a2467312f56ec72fa4a2ef880df",
       "status" : "passed",
       "time" : {
-        "start" : 1645166395031,
-        "stop" : 1645166395377,
-        "duration" : 346
+        "start" : 1645166610038,
+        "stop" : 1645166610385,
+        "duration" : 347
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "ProdTest)Create invalid booking",
-      "uid" : "15bac8938ed3b5c",
+      "uid" : "f1dd8c85b2442aae",
       "parentUid" : "7e9b3a2467312f56ec72fa4a2ef880df",
       "status" : "passed",
       "time" : {
-        "start" : 1645166395377,
-        "stop" : 1645166395629,
-        "duration" : 252
+        "start" : 1645166610385,
+        "stop" : 1645166610623,
+        "duration" : 238
       },
       "flaky" : false,
       "newFailed" : false,

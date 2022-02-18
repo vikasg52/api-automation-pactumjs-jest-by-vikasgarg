@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Feb 18 06:39:55 GMT 2022","Fri Feb 18 06:39:55 GMT 2022","346","test  suite1","","","","","DevTest)Create valid booking",""
-"passed","Fri Feb 18 06:39:55 GMT 2022","Fri Feb 18 06:39:55 GMT 2022","252","test  suite1","","","","","ProdTest)Create invalid booking",""
