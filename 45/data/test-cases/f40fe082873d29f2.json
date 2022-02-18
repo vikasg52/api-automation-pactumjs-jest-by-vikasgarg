@@ -1,0 +1,69 @@
+{
+  "uid" : "f40fe082873d29f2",
+  "name" : "ProdTest)Create invalid booking",
+  "fullName" : "test  suite1 ProdTest)Create invalid booking",
+  "historyId" : "0461e675-c28e-564a-af18-4c643d2e4106",
+  "time" : {
+    "start" : 1645169501288,
+    "stop" : 1645169501553,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite1"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-494"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "35d780644cdecdb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645169501288,
+          "stop" : 1645169501553,
+          "duration" : 265
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f40fe082873d29f2.json",
+  "parameterValues" : [ ]
+}
