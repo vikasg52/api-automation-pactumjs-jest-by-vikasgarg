@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az81-918",
+    "children" : [ {
+      "name" : "01",
+      "children" : [ {
+        "name" : "ProdTest)Create invalid booking",
+        "uid" : "15bac8938ed3b5c",
+        "parentUid" : "72e77e986446f3e0244bdf544ab4d1da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645166395377,
+          "stop" : 1645166395629,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DevTest)Create valid booking",
+        "uid" : "113c80a8b7c5153f",
+        "parentUid" : "72e77e986446f3e0244bdf544ab4d1da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645166395031,
+          "stop" : 1645166395377,
+          "duration" : 346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72e77e986446f3e0244bdf544ab4d1da"
+    } ],
+    "uid" : "faa16b31a195a7cfb0f4dde0e2d0bf01"
+  } ],
+  "name" : "timeline"
+}
