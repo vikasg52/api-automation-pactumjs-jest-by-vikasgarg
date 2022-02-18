@@ -12,4 +12,4 @@ Run all tests: `npm test`
 Generate allure report: `npm run report`  
 
 ##  Test Automation Report is published at
-Report Link: https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/41/
+Report Link: https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/

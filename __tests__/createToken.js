@@ -19,7 +19,7 @@ it('(ProdTest):Create token - valid', async () => {
         });
 });
 
-it('(DevTest):Create token - invalid username', async () => {
+it('(ProdTest):Create token - invalid username', async () => {
     await pactum.spec()
         .post(endpoints.baseUrl+endpoints.getToken)
         .withHeaders('Accept', 'application/json')

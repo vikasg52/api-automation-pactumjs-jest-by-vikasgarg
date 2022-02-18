@@ -3,7 +3,7 @@ const requestJSON = require('../../data/createBooking.json');
 const pactum = require('pactum');
 
 describe('test  suite1', () => {
-it('DevTest)Create valid booking', async () => {
+it('ProdTest)Create valid booking', async () => {
     await pactum.spec()
         .post(endpoints.baseUrl+endpoints.booking)
         .withHeaders('Accept', 'application/json')
