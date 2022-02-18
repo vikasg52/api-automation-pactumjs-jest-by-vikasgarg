@@ -10,3 +10,6 @@ Reporting Framework: [Allure] (https://docs.qameta.io/allure/)
 Install artifacts: `npm install`  
 Run all tests: `npm test`  
 Generate allure report: `npm run report`  
+
+##  Test Automation Report is published at
+Report Link: https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/41/
