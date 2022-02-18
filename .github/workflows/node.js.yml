@@ -31,9 +31,9 @@ jobs:
     - run: npm ci
     - run: npm run sanity
     - run: npm run report
-    - name : copy trend history
+
       if: always()
-    - run: cp -R allure-report/history allure-results/history
+      - run: cp -R allure-report/history allure-results/history
 
     - name: Test marketplace action
       uses: simple-elf/allure-report-action@master
