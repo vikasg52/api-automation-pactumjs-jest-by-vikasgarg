@@ -1,11 +1,1 @@
-{
-    "firstname": "Vikas9",
-    "lastname": "Kumar1",
-    "totalprice": 112,
-    "depositpaid": true,
-    "bookingdates": {
-        "checkin": "2020-11-01",
-        "checkout": "2020-11-03"
-    },
-    "additionalneeds": "Breakfast"
-}
+{"additionalneeds": "Smoking Room", "bookingdates": {"checkin": "2021-11-01", "checkout": "2021-11-10"}, "depositpaid": true, "firstname": "Jack", "lastname": "Ross", "totalprice": 170}
