@@ -12,7 +12,6 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "collectCoverage": true,
     "testRunner": "jest-jasmine2",
     "setupFilesAfterEnv": [
       "jest-allure2-adapter/dist/setup-default"
