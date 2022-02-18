@@ -32,6 +32,7 @@ jobs:
     - run: npm run sanity
     - run: npm install -g allure-commandline --save-dev
     - run: npm run report
+    - run: cp -R allure-report/history allure-results/history
 
     - name: Test marketplace action
       uses: simple-elf/allure-report-action@master
