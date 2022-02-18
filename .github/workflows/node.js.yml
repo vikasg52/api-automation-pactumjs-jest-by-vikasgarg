@@ -31,3 +31,12 @@ jobs:
     - run: npm run smoke
     - run: npm install -g allure-commandline --save-dev
     - run: npm run report
+
+    - name: Test marketplace action
+      uses: simple-elf/allure-report-action@master
+      if: always()
+      id: allure-report
+      with:
+      gh_pages: gh-pages
+      allure_report: allure-report
+      allure_history: allure-history
