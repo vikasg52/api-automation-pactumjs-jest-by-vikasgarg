@@ -3,27 +3,27 @@
   "children" : [ {
     "name" : "test  suite1",
     "children" : [ {
-      "name" : "DevTest)Create valid booking",
-      "uid" : "1523c3d5236002f4",
+      "name" : "ProdTest)Create valid booking",
+      "uid" : "c1c8df4d234059a4",
       "parentUid" : "db693c4c63db0fd696bc9fffbf070412",
       "status" : "passed",
       "time" : {
-        "start" : 1645166610038,
-        "stop" : 1645166610385,
-        "duration" : 347
+        "start" : 1645169327284,
+        "stop" : 1645169327545,
+        "duration" : 261
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "ProdTest)Create invalid booking",
-      "uid" : "f1dd8c85b2442aae",
+      "uid" : "10d6411c46679093",
       "parentUid" : "db693c4c63db0fd696bc9fffbf070412",
       "status" : "passed",
       "time" : {
-        "start" : 1645166610385,
-        "stop" : 1645166610623,
-        "duration" : 238
+        "start" : 1645169327546,
+        "stop" : 1645169327739,
+        "duration" : 193
       },
       "flaky" : false,
       "newFailed" : false,
