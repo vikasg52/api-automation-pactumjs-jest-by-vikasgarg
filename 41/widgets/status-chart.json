@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3e8b5474142f9126",
+  "name" : "DevTest)Create valid booking",
+  "time" : {
+    "start" : 1645165723204,
+    "stop" : 1645165723538,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "366041d8824db31a",
+  "name" : "ProdTest)Create invalid booking",
+  "time" : {
+    "start" : 1645165723538,
+    "stop" : 1645165723790,
+    "duration" : 252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
