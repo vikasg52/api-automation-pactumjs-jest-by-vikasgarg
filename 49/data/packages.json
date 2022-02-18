@@ -1,0 +1,328 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test  suite5",
+    "children" : [ {
+      "name" : "Partial update booking - firstname & lastname",
+      "uid" : "9852f116e7b2be98",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171744814,
+        "stop" : 1645171744823,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Partial update booking - total price & deposit paid",
+      "uid" : "317f2a2dc53d62ab",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171744823,
+        "stop" : 1645171744824,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Partial update booking - checkin & checkout date",
+      "uid" : "cfd57422a746cd5f",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171744824,
+        "stop" : 1645171744825,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Partial update booking - non-existent booking",
+      "uid" : "edd2da4f220629ea",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171744825,
+        "stop" : 1645171744826,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Partial update booking - additional needs",
+      "uid" : "3679badf5b13f5fe",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171744825,
+        "stop" : 1645171744825,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get all IDs",
+      "uid" : "e235143ff10ef86f",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171745135,
+        "stop" : 1645171745142,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get booking ID by existent firstname",
+      "uid" : "ffc87f47b119a457",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171745142,
+        "stop" : 1645171745143,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get booking ID by existent lastname",
+      "uid" : "4d6c215f59c2519b",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171745144,
+        "stop" : 1645171745144,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get booking ID by existent firstname and lastname",
+      "uid" : "af329b7550949106",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171745144,
+        "stop" : 1645171745145,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get booking ID - empty checkin date header",
+      "uid" : "9165058afc9b176e",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171745145,
+        "stop" : 1645171745145,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get booking ID - empty checkout date header",
+      "uid" : "ecb97c76bf0f5e96",
+      "parentUid" : "79262ea8df35fe5746498bc301fc59cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171745145,
+        "stop" : 1645171745146,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "79262ea8df35fe5746498bc301fc59cc"
+  }, {
+    "name" : "test  suite2",
+    "children" : [ {
+      "name" : "(ProdTest):Create token - valid",
+      "uid" : "df261009938e37d8",
+      "parentUid" : "4a3ac7d0815e559e0bbc3169bc573d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645171745416,
+        "stop" : 1645171745523,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "(ProdTest):Create token - invalid username",
+      "uid" : "35976e81393eee1f",
+      "parentUid" : "4a3ac7d0815e559e0bbc3169bc573d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645171745523,
+        "stop" : 1645171745563,
+        "duration" : 40
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Create token - invalid password",
+      "uid" : "34b2fba4afcd092",
+      "parentUid" : "4a3ac7d0815e559e0bbc3169bc573d4b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171745563,
+        "stop" : 1645171745564,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4a3ac7d0815e559e0bbc3169bc573d4b"
+  }, {
+    "name" : "test  suite4",
+    "children" : [ {
+      "name" : "(ProdTest)Get specific valid ID",
+      "uid" : "d4bfda600d22d399",
+      "parentUid" : "273a42cb80b5a0f49a27b12907f91514",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645171745807,
+        "stop" : 1645171745864,
+        "duration" : 57
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "(ProdTest) Get specific valid ID without Accept header",
+      "uid" : "fee75e07b6e19fdc",
+      "parentUid" : "273a42cb80b5a0f49a27b12907f91514",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645171745865,
+        "stop" : 1645171745917,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "(ProdTest) Get specific invalid ID",
+      "uid" : "4e70f513e55798a",
+      "parentUid" : "273a42cb80b5a0f49a27b12907f91514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645171745917,
+        "stop" : 1645171746001,
+        "duration" : 84
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "273a42cb80b5a0f49a27b12907f91514"
+  }, {
+    "name" : "test  suite6",
+    "children" : [ {
+      "name" : "Update booking - valid",
+      "uid" : "171b2ba9d0d1dade",
+      "parentUid" : "04fb976455a6e1188f33ffd504d93e49",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171746262,
+        "stop" : 1645171746268,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Update booking - non-existent",
+      "uid" : "eb254cc5472827cb",
+      "parentUid" : "04fb976455a6e1188f33ffd504d93e49",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171746268,
+        "stop" : 1645171746269,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "04fb976455a6e1188f33ffd504d93e49"
+  }, {
+    "name" : "test  suite1",
+    "children" : [ {
+      "name" : "ProdTest)Create valid booking",
+      "uid" : "9a0b34244872379",
+      "parentUid" : "7e9b3a2467312f56ec72fa4a2ef880df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645171746515,
+        "stop" : 1645171746581,
+        "duration" : 66
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "ProdTest)Create invalid booking",
+      "uid" : "4b9ff7efb0e59e27",
+      "parentUid" : "7e9b3a2467312f56ec72fa4a2ef880df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645171746582,
+        "stop" : 1645171746626,
+        "duration" : 44
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7e9b3a2467312f56ec72fa4a2ef880df"
+  }, {
+    "name" : "test  suite3",
+    "children" : [ {
+      "name" : "Delete booking - valid",
+      "uid" : "395d918de0a37b03",
+      "parentUid" : "47c043e05c90aa448c110566e13abc8b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171746862,
+        "stop" : 1645171746867,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Delete booking - non-existent",
+      "uid" : "c0623d73fd2965de",
+      "parentUid" : "47c043e05c90aa448c110566e13abc8b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1645171746868,
+        "stop" : 1645171746868,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "47c043e05c90aa448c110566e13abc8b"
+  } ],
+  "name" : "packages"
+}
