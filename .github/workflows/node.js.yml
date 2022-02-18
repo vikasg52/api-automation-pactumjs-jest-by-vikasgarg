@@ -30,11 +30,9 @@ jobs:
     - run: npm install -g allure-commandline --save-dev
     - run: npm ci
     - run: npm run sanity
+    - run: mv allure-report/history allure-results/
     - run: npm run report
-
-      if: always()
-      - run: cp -R allure-report/history allure-results/history
-
+    
     - name: Test marketplace action
       uses: simple-elf/allure-report-action@master
       if: always()
