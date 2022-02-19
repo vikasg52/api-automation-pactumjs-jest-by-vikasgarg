@@ -1,12 +1,12 @@
 {
-  "uid" : "cb64671ab38e607f",
+  "uid" : "92de06f7a3e28904",
   "name" : "(ProdTest) Get specific valid ID without Accept header",
   "fullName" : "test  suite4 (ProdTest) Get specific valid ID without Accept header",
   "historyId" : "5b56545d-da9c-5773-a247-3549f8910ec0",
   "time" : {
-    "start" : 1645294900364,
-    "stop" : 1645294900542,
-    "duration" : 178
+    "start" : 1645295119807,
+    "stop" : 1645295120052,
+    "duration" : 245
   },
   "status" : "failed",
   "statusMessage" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  418\nReceived:\n  404\n\nMessage:\n  HTTP status 404 !== 418\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
@@ -32,7 +32,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az124-628"
+    "value" : "fv-az74-154"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -51,6 +51,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "cb64671ab38e607f.json",
+  "source" : "92de06f7a3e28904.json",
   "parameterValues" : [ ]
 }
