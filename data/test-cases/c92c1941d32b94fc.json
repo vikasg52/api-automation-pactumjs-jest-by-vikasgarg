@@ -1,0 +1,51 @@
+{
+  "uid" : "c92c1941d32b94fc",
+  "name" : "Get booking ID by existent firstname",
+  "fullName" : "test  suite5 Get booking ID by existent firstname",
+  "historyId" : "bbe2e7bd-8db0-58ce-8d89-20ea6ab3c10c",
+  "time" : {
+    "start" : 1645290960335,
+    "stop" : 1645290960335,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite5"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite5"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az150-348"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c92c1941d32b94fc.json",
+  "parameterValues" : [ ]
+}
