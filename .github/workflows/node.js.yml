@@ -29,7 +29,7 @@ jobs:
     - run: npm install -g allure-commandline --save-dev
     - run: npm ci
     - run: npm run sanity
-    - run: mv allure-report/history allure-results/
+    - run: cp -R allure-report/history allure-results/history
     - run: npm run report
     
     - name: Test marketplace action
