@@ -31,12 +31,11 @@ jobs:
     
     - uses: simple-elf/allure-report-action@master
     - name: Testing
-      id: test
     - run: npm run sanity
     - continue-on-error: true
     - run: npm run report
     - run: mv allure-report/history allure-results/
-      if: steps.test.outcome != 'success'
+      if: steps.Testing.outcome != 'success'
     - run: exit 1
     
     - name: Test marketplace action
