@@ -1,11 +1,11 @@
 {
-  "uid" : "56d38c5a9c85fcde",
-  "name" : "Get booking ID by existent lastname",
-  "fullName" : "test  suite5 Get booking ID by existent lastname",
-  "historyId" : "99c3f580-d098-5884-b60e-2caf537055b1",
+  "uid" : "fa51799a04b1eefd",
+  "name" : "Get booking ID by existent firstname and lastname",
+  "fullName" : "test  suite5 Get booking ID by existent firstname and lastname",
+  "historyId" : "b19b8509-1bd0-5801-b4b9-64e1275fa32e",
   "time" : {
-    "start" : 1645294259461,
-    "stop" : 1645294259462,
+    "start" : 1645294674180,
+    "stop" : 1645294674181,
     "duration" : 1
   },
   "status" : "skipped",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az77-494"
+    "value" : "fv-az81-918"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "56d38c5a9c85fcde.json",
+  "source" : "fa51799a04b1eefd.json",
   "parameterValues" : [ ]
 }
