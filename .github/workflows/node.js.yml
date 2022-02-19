@@ -28,8 +28,8 @@ jobs:
         cache: 'npm' 
     - run: npm install -g allure-commandline --save-dev
     - run: npm ci
-    - run: npm run sanity
       if: always()
+    - run: npm run sanity
     - run: cp -R allure-report/history allure-results/history
     - run: npm run report
     
