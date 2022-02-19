@@ -1,0 +1,51 @@
+{
+  "uid" : "98684f231b9362f9",
+  "name" : "Update booking - valid",
+  "fullName" : "test  suite6 Update booking - valid",
+  "historyId" : "ccfd8597-a583-5d4d-82c8-1346ec3da50a",
+  "time" : {
+    "start" : 1645289689920,
+    "stop" : 1645289689924,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite6"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite6"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-351"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98684f231b9362f9.json",
+  "parameterValues" : [ ]
+}
