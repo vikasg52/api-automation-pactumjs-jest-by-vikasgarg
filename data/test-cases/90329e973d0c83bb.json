@@ -1,12 +1,12 @@
 {
-  "uid" : "24958fb4b1a4013b",
-  "name" : "Delete booking - non-existent",
-  "fullName" : "test  suite3 Delete booking - non-existent",
-  "historyId" : "be097ec6-a1f6-5a80-820d-377e6aa1f59f",
+  "uid" : "90329e973d0c83bb",
+  "name" : "Delete booking - valid",
+  "fullName" : "test  suite3 Delete booking - valid",
+  "historyId" : "95ba28e3-4351-54da-a613-18d4a53a591a",
   "time" : {
-    "start" : 1645295121316,
-    "stop" : 1645295121317,
-    "duration" : 1
+    "start" : 1645295417440,
+    "stop" : 1645295417444,
+    "duration" : 4
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az74-154"
+    "value" : "fv-az83-872"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "24958fb4b1a4013b.json",
+  "source" : "90329e973d0c83bb.json",
   "parameterValues" : [ ]
 }
