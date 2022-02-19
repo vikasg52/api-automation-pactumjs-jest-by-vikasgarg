@@ -32,8 +32,8 @@ jobs:
     
     - name: Testing
     - uses: simple-elf/allure-report-action@master
-      id: test
     - run: npm run sanity
+      id: test
     - continue-on-error: true
     - run: npm run report
     - run: mv allure-report/history allure-results/
