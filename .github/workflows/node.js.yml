@@ -29,11 +29,13 @@ jobs:
     - run: npm install -g allure-commandline --save-dev
     - run: npm ci
     
-    - name: Testing
+
     - uses: simple-elf/allure-report-action@master
-      id: test
+    - name: Testing
+      with:
+        id: test
+        continue-on-error: true
     - run: npm run sanity
-      continue-on-error: true
     - run: npm run report
     - run: mv allure-report/history allure-results/
       if: steps.test.outcome != 'success'
