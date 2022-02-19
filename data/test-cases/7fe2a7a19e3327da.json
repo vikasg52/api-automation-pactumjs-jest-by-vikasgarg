@@ -1,14 +1,15 @@
 {
-  "uid" : "134607c29079f15c",
-  "name" : "(ProdTest):Create token - valid",
-  "fullName" : "test  suite2 (ProdTest):Create token - valid",
-  "historyId" : "383f48aa-0c00-59a7-9982-6f1850aba245",
+  "uid" : "7fe2a7a19e3327da",
+  "name" : "Create token - invalid password",
+  "fullName" : "test  suite2 Create token - invalid password",
+  "historyId" : "24f86cc5-bde5-53e1-ae60-f3ffefca8bfe",
   "time" : {
-    "start" : 1645294674426,
-    "stop" : 1645294674759,
-    "duration" : 333
+    "start" : 1645294899998,
+    "stop" : 1645294899999,
+    "duration" : 1
   },
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -30,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az81-918"
+    "value" : "fv-az124-628"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -45,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "134607c29079f15c.json",
+  "source" : "7fe2a7a19e3327da.json",
   "parameterValues" : [ ]
 }

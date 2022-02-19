@@ -4,10 +4,10 @@
     "uid" : "dfd98288e4cffbbc12e22ece26c25a21",
     "name" : "test  suite4",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 3
     }
