@@ -15,10 +15,10 @@
     "uid" : "5e4a0c927fb4a79ab7d6365375cfec77",
     "name" : "test  suite2",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 3
     }
