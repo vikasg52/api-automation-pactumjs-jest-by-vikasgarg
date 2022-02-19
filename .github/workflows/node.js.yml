@@ -21,7 +21,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      continue-on-error: true
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
@@ -29,12 +28,10 @@ jobs:
         cache: 'npm' 
     - run: npm install -g allure-commandline --save-dev
     - run: npm ci
-      id: test
     - run: npm run sanity
+      if: always()
     - run: npm run report
     - run: mv allure-report/history allure-results/
-      if: steps.test.outcome != 'success'
-    - run: exit 1
     
     - name: Test marketplace action
       uses: simple-elf/allure-report-action@master
