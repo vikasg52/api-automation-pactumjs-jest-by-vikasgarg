@@ -1,14 +1,15 @@
 {
-  "uid" : "dd63dfde5b698daa",
-  "name" : "(ProdTest) Get specific invalid ID",
-  "fullName" : "test  suite4 (ProdTest) Get specific invalid ID",
-  "historyId" : "6962a702-ae6c-5d16-9cca-16f4eb287244",
+  "uid" : "c714e77258ad7fbe",
+  "name" : "Delete booking - non-existent",
+  "fullName" : "test  suite3 Delete booking - non-existent",
+  "historyId" : "be097ec6-a1f6-5a80-820d-377e6aa1f59f",
   "time" : {
-    "start" : 1645291401145,
-    "stop" : 1645291401328,
-    "duration" : 183
+    "start" : 1645292065167,
+    "stop" : 1645292065168,
+    "duration" : 1
   },
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -18,10 +19,10 @@
     "value" : "01"
   }, {
     "name" : "package",
-    "value" : "test  suite4"
+    "value" : "test  suite3"
   }, {
     "name" : "parentSuite",
-    "value" : "test  suite4"
+    "value" : "test  suite3"
   }, {
     "name" : "framework",
     "value" : "jest"
@@ -30,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az138-675"
+    "value" : "fv-az77-494"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -45,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dd63dfde5b698daa.json",
+  "source" : "c714e77258ad7fbe.json",
   "parameterValues" : [ ]
 }
