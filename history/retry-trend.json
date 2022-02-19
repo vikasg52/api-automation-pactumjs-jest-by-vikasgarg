@@ -1,7 +1,12 @@
 [ {
-  "buildOrder" : 61,
-  "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/61/",
+  "buildOrder" : 62,
+  "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62/",
   "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 23,
+    "retry" : 0
+  }
+}, {
   "data" : {
     "run" : 23,
     "retry" : 0
