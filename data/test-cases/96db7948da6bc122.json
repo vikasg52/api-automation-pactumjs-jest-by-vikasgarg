@@ -1,0 +1,50 @@
+{
+  "uid" : "96db7948da6bc122",
+  "name" : "(ProdTest) Get specific invalid ID",
+  "fullName" : "test  suite4 (ProdTest) Get specific invalid ID",
+  "historyId" : "6962a702-ae6c-5d16-9cca-16f4eb287244",
+  "time" : {
+    "start" : 1645290082554,
+    "stop" : 1645290082685,
+    "duration" : 131
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite4"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite4"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az150-348"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96db7948da6bc122.json",
+  "parameterValues" : [ ]
+}

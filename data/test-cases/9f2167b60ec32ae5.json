@@ -1,0 +1,51 @@
+{
+  "uid" : "9f2167b60ec32ae5",
+  "name" : "Delete booking - valid",
+  "fullName" : "test  suite3 Delete booking - valid",
+  "historyId" : "95ba28e3-4351-54da-a613-18d4a53a591a",
+  "time" : {
+    "start" : 1645290083393,
+    "stop" : 1645290083398,
+    "duration" : 5
+  },
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite3"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az150-348"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f2167b60ec32ae5.json",
+  "parameterValues" : [ ]
+}
