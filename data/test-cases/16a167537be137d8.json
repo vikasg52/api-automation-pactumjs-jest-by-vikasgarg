@@ -1,12 +1,12 @@
 {
-  "uid" : "76dca424c9c8f3df",
-  "name" : "Partial update booking - firstname & lastname",
-  "fullName" : "test  suite5 Partial update booking - firstname & lastname",
-  "historyId" : "a20cbb36-dee8-5410-bb5d-aaf07f64b73b",
+  "uid" : "16a167537be137d8",
+  "name" : "Get all IDs",
+  "fullName" : "test  suite5 Get all IDs",
+  "historyId" : "81d9bea6-af4c-5a27-976d-e59c998b5c1a",
   "time" : {
-    "start" : 1645290395200,
-    "stop" : 1645290395215,
-    "duration" : 15
+    "start" : 1645290639879,
+    "stop" : 1645290639884,
+    "duration" : 5
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az81-918"
+    "value" : "fv-az74-154"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "76dca424c9c8f3df.json",
+  "source" : "16a167537be137d8.json",
   "parameterValues" : [ ]
 }

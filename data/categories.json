@@ -3,22 +3,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2018-01-01\", \"checkout\": \"2019-01-01\"}, \"depositpaid\": true, \"firstname\": \"Kris\", \"lastname\": \"Mistry\", \"totalprice\": 111}\nReceived:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2021-03-20\", \"checkout\": \"2021-03-31\"}, \"depositpaid\": false, \"firstname\": \"Serg\", \"lastname\": \"Traktorist\", \"totalprice\": 5000}\n\nDifference:\n\n- Expected\n+ Received\n\n  Object {\n    \"additionalneeds\": \"Breakfast\",\n    \"bookingdates\": Object {\n-     \"checkin\": \"2018-01-01\",\n-     \"checkout\": \"2019-01-01\",\n+     \"checkin\": \"2021-03-20\",\n+     \"checkout\": \"2021-03-31\",\n    },\n-   \"depositpaid\": true,\n-   \"firstname\": \"Kris\",\n-   \"lastname\": \"Mistry\",\n-   \"totalprice\": 111,\n+   \"depositpaid\": false,\n+   \"firstname\": \"Serg\",\n+   \"lastname\": \"Traktorist\",\n+   \"totalprice\": 5000,\n  }\n    at Expect._validateJson (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "name" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  200\nReceived:\n  404\n\nMessage:\n  HTTP status 404 !== 200\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
       "children" : [ {
         "name" : "(ProdTest)Get specific valid ID",
-        "uid" : "c16dbd2fa33a8fee",
-        "parentUid" : "79b46b583904e024f96116c43cbb7cad",
+        "uid" : "d06bc3eeba29a5d4",
+        "parentUid" : "e6f6d7a7d329db44e57cf8a3040c8766",
         "status" : "failed",
         "time" : {
-          "start" : 1645290396378,
-          "stop" : 1645290396631,
-          "duration" : 253
+          "start" : 1645290640918,
+          "stop" : 1645290641165,
+          "duration" : 247
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "79b46b583904e024f96116c43cbb7cad"
+      "uid" : "e6f6d7a7d329db44e57cf8a3040c8766"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  418\nReceived:\n  404\n\nMessage:\n  HTTP status 404 !== 418\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "children" : [ {
+        "name" : "(ProdTest) Get specific valid ID without Accept header",
+        "uid" : "89076d8663812c8e",
+        "parentUid" : "617f87bf4c4af8aaa44811525284b861",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645290641166,
+          "stop" : 1645290641408,
+          "duration" : 242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "617f87bf4c4af8aaa44811525284b861"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

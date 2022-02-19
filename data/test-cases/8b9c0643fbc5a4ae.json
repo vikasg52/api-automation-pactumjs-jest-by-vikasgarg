@@ -1,11 +1,11 @@
 {
-  "uid" : "f62b9c65a59ad4ad",
-  "name" : "Partial update booking - total price & deposit paid",
-  "fullName" : "test  suite5 Partial update booking - total price & deposit paid",
-  "historyId" : "f6f480fc-a01f-5ada-9ddf-b935fe481d3d",
+  "uid" : "8b9c0643fbc5a4ae",
+  "name" : "Get booking ID by existent lastname",
+  "fullName" : "test  suite5 Get booking ID by existent lastname",
+  "historyId" : "99c3f580-d098-5884-b60e-2caf537055b1",
   "time" : {
-    "start" : 1645290395216,
-    "stop" : 1645290395216,
+    "start" : 1645290639886,
+    "stop" : 1645290639886,
     "duration" : 0
   },
   "status" : "skipped",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az81-918"
+    "value" : "fv-az74-154"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f62b9c65a59ad4ad.json",
+  "source" : "8b9c0643fbc5a4ae.json",
   "parameterValues" : [ ]
 }
