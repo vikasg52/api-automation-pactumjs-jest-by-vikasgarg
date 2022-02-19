@@ -1,11 +1,11 @@
 {
-  "uid" : "7200fa00954f74ea",
-  "name" : "Partial update booking - non-existent booking",
-  "fullName" : "test  suite5 Partial update booking - non-existent booking",
-  "historyId" : "afb0b17d-5446-5e86-a37e-44782ef89092",
+  "uid" : "577e66fd7a190e6e",
+  "name" : "Get booking ID - empty checkin date header",
+  "fullName" : "test  suite5 Get booking ID - empty checkin date header",
+  "historyId" : "54fbc4ec-eb7e-5d8a-9544-3ffbb1b23760",
   "time" : {
-    "start" : 1645291159677,
-    "stop" : 1645291159677,
+    "start" : 1645291399087,
+    "stop" : 1645291399087,
     "duration" : 0
   },
   "status" : "skipped",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az128-572"
+    "value" : "fv-az138-675"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -44,28 +44,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 2,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "5c8acd04648b9831",
-        "status" : "skipped",
-        "statusDetails" : "Suite disabled",
-        "time" : {
-          "start" : 1645291159677,
-          "stop" : 1645291159677,
-          "duration" : 0
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "7200fa00954f74ea.json",
+  "source" : "577e66fd7a190e6e.json",
   "parameterValues" : [ ]
 }

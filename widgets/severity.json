@@ -1,231 +1,231 @@
 [ {
-  "uid" : "1f4a7f9ec1fcd028",
+  "uid" : "d0ecae855f54075f",
+  "name" : "Partial update booking - firstname & lastname",
+  "time" : {
+    "start" : 1645291398896,
+    "stop" : 1645291398901,
+    "duration" : 5
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2d2c63217bcc99a9",
   "name" : "Update booking - non-existent",
   "time" : {
-    "start" : 1645291161406,
-    "stop" : 1645291161407,
+    "start" : 1645291401485,
+    "stop" : 1645291401485,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2a356fae98f35ed3",
+  "name" : "Delete booking - non-existent",
+  "time" : {
+    "start" : 1645291402127,
+    "stop" : 1645291402128,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "149a2d44d8cb2896",
-  "name" : "Partial update booking - total price & deposit paid",
+  "uid" : "ad621da63a8121fe",
+  "name" : "Delete booking - valid",
   "time" : {
-    "start" : 1645291159675,
-    "stop" : 1645291159675,
-    "duration" : 0
+    "start" : 1645291402122,
+    "stop" : 1645291402127,
+    "duration" : 5
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "8fbac972599c85fb",
+  "uid" : "dd63dfde5b698daa",
+  "name" : "(ProdTest) Get specific invalid ID",
+  "time" : {
+    "start" : 1645291401145,
+    "stop" : 1645291401328,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cedf753ba85b73d6",
   "name" : "ProdTest)Create valid booking",
   "time" : {
-    "start" : 1645291161575,
-    "stop" : 1645291161764,
-    "duration" : 189
+    "start" : 1645291401624,
+    "stop" : 1645291401803,
+    "duration" : 179
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1c44d1f22983bec5",
-  "name" : "Create token - invalid password",
+  "uid" : "9047d220b0b228c",
+  "name" : "Get booking ID by existent lastname",
   "time" : {
-    "start" : 1645291160504,
-    "stop" : 1645291160504,
+    "start" : 1645291399086,
+    "stop" : 1645291399086,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "1d0890372244dc0a",
-  "name" : "ProdTest)Create invalid booking",
+  "uid" : "b257e6150727729a",
+  "name" : "(ProdTest)Get specific valid ID",
   "time" : {
-    "start" : 1645291161764,
-    "stop" : 1645291161936,
-    "duration" : 172
+    "start" : 1645291399813,
+    "stop" : 1645291399960,
+    "duration" : 147
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "efa9f4b36f57b378",
-  "name" : "(ProdTest) Get specific valid ID without Accept header",
+  "uid" : "53c0207196a68651",
+  "name" : "(ProdTest):Create token - invalid username",
   "time" : {
-    "start" : 1645291160859,
-    "stop" : 1645291161045,
+    "start" : 1645291399484,
+    "stop" : 1645291399670,
     "duration" : 186
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "75287223da16942c",
-  "name" : "Delete booking - valid",
-  "time" : {
-    "start" : 1645291162096,
-    "stop" : 1645291162100,
-    "duration" : 4
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "35e9edc095b72210",
-  "name" : "Get booking ID by existent lastname",
-  "time" : {
-    "start" : 1645291159883,
-    "stop" : 1645291159883,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "24eeabff78501fcb",
-  "name" : "Partial update booking - firstname & lastname",
-  "time" : {
-    "start" : 1645291159668,
-    "stop" : 1645291159675,
-    "duration" : 7
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "414429aea1ff6f0b",
-  "name" : "Get booking ID - empty checkin date header",
-  "time" : {
-    "start" : 1645291159884,
-    "stop" : 1645291159884,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "37dcf88d839e3dd5",
-  "name" : "Partial update booking - checkin & checkout date",
-  "time" : {
-    "start" : 1645291159676,
-    "stop" : 1645291159676,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "7200fa00954f74ea",
-  "name" : "Partial update booking - non-existent booking",
-  "time" : {
-    "start" : 1645291159677,
-    "stop" : 1645291159677,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "50ba821473014f6d",
-  "name" : "(ProdTest):Create token - invalid username",
-  "time" : {
-    "start" : 1645291160329,
-    "stop" : 1645291160504,
-    "duration" : 175
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d907cd1351f68ed7",
-  "name" : "Update booking - valid",
-  "time" : {
-    "start" : 1645291161402,
-    "stop" : 1645291161406,
-    "duration" : 4
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "81ad789d992185bb",
-  "name" : "Get all IDs",
-  "time" : {
-    "start" : 1645291159878,
-    "stop" : 1645291159882,
-    "duration" : 4
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "5b7d8c7bcbc5d01",
+  "uid" : "7ad865fd84dcf32a",
   "name" : "Partial update booking - additional needs",
   "time" : {
-    "start" : 1645291159676,
-    "stop" : 1645291159676,
+    "start" : 1645291398902,
+    "stop" : 1645291398902,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "cb590abd8f0df864",
+  "uid" : "6d106a4fe6c36c68",
+  "name" : "Update booking - valid",
+  "time" : {
+    "start" : 1645291401475,
+    "stop" : 1645291401484,
+    "duration" : 9
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3ad4a4634bf9d679",
   "name" : "Get booking ID - empty checkout date header",
   "time" : {
-    "start" : 1645291159884,
-    "stop" : 1645291159885,
-    "duration" : 1
+    "start" : 1645291399087,
+    "stop" : 1645291399087,
+    "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "d57faa0ddd99dccc",
-  "name" : "Get booking ID by existent firstname",
+  "uid" : "3d762463343530e0",
+  "name" : "ProdTest)Create invalid booking",
   "time" : {
-    "start" : 1645291159882,
-    "stop" : 1645291159883,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "24a079a74a670a77",
-  "name" : "Delete booking - non-existent",
-  "time" : {
-    "start" : 1645291162100,
-    "stop" : 1645291162101,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "be226dcf056b0381",
-  "name" : "Get booking ID by existent firstname and lastname",
-  "time" : {
-    "start" : 1645291159883,
-    "stop" : 1645291159884,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "aaf1870c4c3c163b",
-  "name" : "(ProdTest):Create token - valid",
-  "time" : {
-    "start" : 1645291160065,
-    "stop" : 1645291160329,
-    "duration" : 264
+    "start" : 1645291401803,
+    "stop" : 1645291401981,
+    "duration" : 178
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "58213ae08083a7f4",
-  "name" : "(ProdTest)Get specific valid ID",
+  "uid" : "33f575c1ad8a0f6",
+  "name" : "Create token - invalid password",
   "time" : {
-    "start" : 1645291160669,
-    "stop" : 1645291160859,
-    "duration" : 190
+    "start" : 1645291399670,
+    "stop" : 1645291399671,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3ca80094c2c97384",
+  "name" : "Get booking ID by existent firstname",
+  "time" : {
+    "start" : 1645291399085,
+    "stop" : 1645291399086,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "577e66fd7a190e6e",
+  "name" : "Get booking ID - empty checkin date header",
+  "time" : {
+    "start" : 1645291399087,
+    "stop" : 1645291399087,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7a8dbca710535636",
+  "name" : "Partial update booking - non-existent booking",
+  "time" : {
+    "start" : 1645291398903,
+    "stop" : 1645291398903,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b624d997cb8047bd",
+  "name" : "Partial update booking - checkin & checkout date",
+  "time" : {
+    "start" : 1645291398902,
+    "stop" : 1645291398902,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1a45175858e49ffd",
+  "name" : "Partial update booking - total price & deposit paid",
+  "time" : {
+    "start" : 1645291398901,
+    "stop" : 1645291398902,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4c1efeb73e4e793",
+  "name" : "(ProdTest) Get specific valid ID without Accept header",
+  "time" : {
+    "start" : 1645291399960,
+    "stop" : 1645291401145,
+    "duration" : 1185
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "2a88c6442910ba46",
-  "name" : "(ProdTest) Get specific invalid ID",
+  "uid" : "31e7941e0a4b7d03",
+  "name" : "Get booking ID by existent firstname and lastname",
   "time" : {
-    "start" : 1645291161046,
-    "stop" : 1645291161219,
-    "duration" : 173
+    "start" : 1645291399086,
+    "stop" : 1645291399087,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8ef5d14e41b712da",
+  "name" : "(ProdTest):Create token - valid",
+  "time" : {
+    "start" : 1645291399249,
+    "stop" : 1645291399484,
+    "duration" : 235
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e70cb1cfea5ce15",
+  "name" : "Get all IDs",
+  "time" : {
+    "start" : 1645291399082,
+    "stop" : 1645291399085,
+    "duration" : 3
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

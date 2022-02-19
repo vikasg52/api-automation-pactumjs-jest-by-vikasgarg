@@ -3,28 +3,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "37dcf88d839e3dd5",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/37dcf88d839e3dd5",
+      "uid" : "b624d997cb8047bd",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/b624d997cb8047bd",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291159676,
-        "stop" : 1645291159676,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "7db67c685005538a",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159676,
-        "stop" : 1645291159676,
+        "start" : 1645291398902,
+        "stop" : 1645291398902,
         "duration" : 0
       }
     } ]
@@ -33,29 +24,20 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "81ad789d992185bb",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/81ad789d992185bb",
+      "uid" : "1e70cb1cfea5ce15",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/1e70cb1cfea5ce15",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291159878,
-        "stop" : 1645291159882,
-        "duration" : 4
-      }
-    }, {
-      "uid" : "f19a50cf9730abf9",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159878,
-        "stop" : 1645291159882,
-        "duration" : 4
+        "start" : 1645291399082,
+        "stop" : 1645291399085,
+        "duration" : 3
       }
     } ]
   },
@@ -63,29 +45,20 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1c44d1f22983bec5",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/1c44d1f22983bec5",
+      "uid" : "33f575c1ad8a0f6",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/33f575c1ad8a0f6",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291160504,
-        "stop" : 1645291160504,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "f1bfdd4823abaa31",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291160504,
-        "stop" : 1645291160504,
-        "duration" : 0
+        "start" : 1645291399670,
+        "stop" : 1645291399671,
+        "duration" : 1
       }
     } ]
   },
@@ -93,29 +66,104 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "24a079a74a670a77",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/24a079a74a670a77",
+      "uid" : "2a356fae98f35ed3",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/2a356fae98f35ed3",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291162100,
-        "stop" : 1645291162101,
+        "start" : 1645291402127,
+        "stop" : 1645291402128,
         "duration" : 1
       }
-    }, {
-      "uid" : "45864f4556041550",
+    } ]
+  },
+  "5b56545d-da9c-5773-a247-3549f8910ec0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c1efeb73e4e793",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/4c1efeb73e4e793",
+      "status" : "failed",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  418\nReceived:\n  404\n\nMessage:\n  HTTP status 404 !== 418\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "time" : {
+        "start" : 1645291399960,
+        "stop" : 1645291401145,
+        "duration" : 1185
+      }
+    } ]
+  },
+  "afb0b17d-5446-5e86-a37e-44782ef89092" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a8dbca710535636",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/7a8dbca710535636",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291162100,
-        "stop" : 1645291162101,
-        "duration" : 1
+        "start" : 1645291398903,
+        "stop" : 1645291398903,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c8ba164c-c3d0-515a-ba8a-d4e05ad06b30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ad4a4634bf9d679",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/3ad4a4634bf9d679",
+      "status" : "skipped",
+      "statusDetails" : "Suite disabled",
+      "time" : {
+        "start" : 1645291399087,
+        "stop" : 1645291399087,
+        "duration" : 0
+      }
+    } ]
+  },
+  "99c3f580-d098-5884-b60e-2caf537055b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9047d220b0b228c",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/9047d220b0b228c",
+      "status" : "skipped",
+      "statusDetails" : "Suite disabled",
+      "time" : {
+        "start" : 1645291399086,
+        "stop" : 1645291399086,
+        "duration" : 0
       }
     } ]
   },
@@ -124,174 +172,39 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "8fbac972599c85fb",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/8fbac972599c85fb",
+      "uid" : "cedf753ba85b73d6",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/cedf753ba85b73d6",
       "status" : "passed",
       "time" : {
-        "start" : 1645291161575,
-        "stop" : 1645291161764,
-        "duration" : 189
-      }
-    }, {
-      "uid" : "e0f5532e5e2cb522",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645291161575,
-        "stop" : 1645291161764,
-        "duration" : 189
-      }
-    } ]
-  },
-  "c8ba164c-c3d0-515a-ba8a-d4e05ad06b30" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 2,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "cb590abd8f0df864",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/cb590abd8f0df864",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159884,
-        "stop" : 1645291159885,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "fb58b8428916995",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159884,
-        "stop" : 1645291159885,
-        "duration" : 1
-      }
-    } ]
-  },
-  "afb0b17d-5446-5e86-a37e-44782ef89092" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 2,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "7200fa00954f74ea",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/7200fa00954f74ea",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159677,
-        "stop" : 1645291159677,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "5c8acd04648b9831",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159677,
-        "stop" : 1645291159677,
-        "duration" : 0
-      }
-    } ]
-  },
-  "5b56545d-da9c-5773-a247-3549f8910ec0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "efa9f4b36f57b378",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/efa9f4b36f57b378",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645291160859,
-        "stop" : 1645291161045,
-        "duration" : 186
-      }
-    }, {
-      "uid" : "80c376a710a36aa3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645291160859,
-        "stop" : 1645291161045,
-        "duration" : 186
-      }
-    } ]
-  },
-  "99c3f580-d098-5884-b60e-2caf537055b1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 2,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "35e9edc095b72210",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/35e9edc095b72210",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159883,
-        "stop" : 1645291159883,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "879742574aa5087b",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159883,
-        "stop" : 1645291159883,
-        "duration" : 0
+        "start" : 1645291401624,
+        "stop" : 1645291401803,
+        "duration" : 179
       }
     } ]
   },
   "519b7284-32bf-5211-9d66-10e8c50164b8" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "58213ae08083a7f4",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/58213ae08083a7f4",
+      "uid" : "b257e6150727729a",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/b257e6150727729a",
       "status" : "failed",
-      "statusDetails" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2018-01-01\", \"checkout\": \"2019-01-01\"}, \"depositpaid\": true, \"firstname\": \"Kris\", \"lastname\": \"Mistry\", \"totalprice\": 111}\nReceived:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2013-02-23\", \"checkout\": \"2014-10-23\"}, \"depositpaid\": true, \"firstname\": \"Sally\", \"lastname\": \"Brown\", \"totalprice\": 111}\n\nDifference:\n\n- Expected\n+ Received\n\n  Object {\n    \"additionalneeds\": \"Breakfast\",\n    \"bookingdates\": Object {\n-     \"checkin\": \"2018-01-01\",\n-     \"checkout\": \"2019-01-01\",\n+     \"checkin\": \"2013-02-23\",\n+     \"checkout\": \"2014-10-23\",\n    },\n    \"depositpaid\": true,\n-   \"firstname\": \"Kris\",\n-   \"lastname\": \"Mistry\",\n+   \"firstname\": \"Sally\",\n+   \"lastname\": \"Brown\",\n    \"totalprice\": 111,\n  }\n    at Expect._validateJson (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  200\nReceived:\n  404\n\nMessage:\n  HTTP status 404 !== 200\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
       "time" : {
-        "start" : 1645291160669,
-        "stop" : 1645291160859,
-        "duration" : 190
-      }
-    }, {
-      "uid" : "a37f35d0f09199c5",
-      "status" : "failed",
-      "statusDetails" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2018-01-01\", \"checkout\": \"2019-01-01\"}, \"depositpaid\": true, \"firstname\": \"Kris\", \"lastname\": \"Mistry\", \"totalprice\": 111}\nReceived:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2013-02-23\", \"checkout\": \"2014-10-23\"}, \"depositpaid\": true, \"firstname\": \"Sally\", \"lastname\": \"Brown\", \"totalprice\": 111}\n\nDifference:\n\n- Expected\n+ Received\n\n  Object {\n    \"additionalneeds\": \"Breakfast\",\n    \"bookingdates\": Object {\n-     \"checkin\": \"2018-01-01\",\n-     \"checkout\": \"2019-01-01\",\n+     \"checkin\": \"2013-02-23\",\n+     \"checkout\": \"2014-10-23\",\n    },\n    \"depositpaid\": true,\n-   \"firstname\": \"Kris\",\n-   \"lastname\": \"Mistry\",\n+   \"firstname\": \"Sally\",\n+   \"lastname\": \"Brown\",\n    \"totalprice\": 111,\n  }\n    at Expect._validateJson (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
-      "time" : {
-        "start" : 1645291160669,
-        "stop" : 1645291160859,
-        "duration" : 190
+        "start" : 1645291399813,
+        "stop" : 1645291399960,
+        "duration" : 147
       }
     } ]
   },
@@ -300,26 +213,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "2a88c6442910ba46",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/2a88c6442910ba46",
+      "uid" : "dd63dfde5b698daa",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/dd63dfde5b698daa",
       "status" : "passed",
       "time" : {
-        "start" : 1645291161046,
-        "stop" : 1645291161219,
-        "duration" : 173
-      }
-    }, {
-      "uid" : "5e21eb4a473e23",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645291161046,
-        "stop" : 1645291161219,
-        "duration" : 173
+        "start" : 1645291401145,
+        "stop" : 1645291401328,
+        "duration" : 183
       }
     } ]
   },
@@ -327,29 +232,20 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1f4a7f9ec1fcd028",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/1f4a7f9ec1fcd028",
+      "uid" : "2d2c63217bcc99a9",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/2d2c63217bcc99a9",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291161406,
-        "stop" : 1645291161407,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "179f78b3225f91be",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291161406,
-        "stop" : 1645291161407,
-        "duration" : 1
+        "start" : 1645291401485,
+        "stop" : 1645291401485,
+        "duration" : 0
       }
     } ]
   },
@@ -357,28 +253,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "be226dcf056b0381",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/be226dcf056b0381",
+      "uid" : "31e7941e0a4b7d03",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/31e7941e0a4b7d03",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291159883,
-        "stop" : 1645291159884,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "cfc9bac8aded4c4c",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159883,
-        "stop" : 1645291159884,
+        "start" : 1645291399086,
+        "stop" : 1645291399087,
         "duration" : 1
       }
     } ]
@@ -387,28 +274,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "d57faa0ddd99dccc",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/d57faa0ddd99dccc",
+      "uid" : "3ca80094c2c97384",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/3ca80094c2c97384",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291159882,
-        "stop" : 1645291159883,
-        "duration" : 1
-      }
-    }, {
-      "uid" : "d35e0c8a90e5b8f5",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159882,
-        "stop" : 1645291159883,
+        "start" : 1645291399085,
+        "stop" : 1645291399086,
         "duration" : 1
       }
     } ]
@@ -418,26 +296,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "aaf1870c4c3c163b",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/aaf1870c4c3c163b",
+      "uid" : "8ef5d14e41b712da",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/8ef5d14e41b712da",
       "status" : "passed",
       "time" : {
-        "start" : 1645291160065,
-        "stop" : 1645291160329,
-        "duration" : 264
-      }
-    }, {
-      "uid" : "bd3f119143834d67",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645291160065,
-        "stop" : 1645291160329,
-        "duration" : 264
+        "start" : 1645291399249,
+        "stop" : 1645291399484,
+        "duration" : 235
       }
     } ]
   },
@@ -445,29 +315,20 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "24eeabff78501fcb",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/24eeabff78501fcb",
+      "uid" : "d0ecae855f54075f",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/d0ecae855f54075f",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291159668,
-        "stop" : 1645291159675,
-        "duration" : 7
-      }
-    }, {
-      "uid" : "ecf2f06de5e1078a",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159668,
-        "stop" : 1645291159675,
-        "duration" : 7
+        "start" : 1645291398896,
+        "stop" : 1645291398901,
+        "duration" : 5
       }
     } ]
   },
@@ -476,26 +337,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "50ba821473014f6d",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/50ba821473014f6d",
+      "uid" : "53c0207196a68651",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/53c0207196a68651",
       "status" : "passed",
       "time" : {
-        "start" : 1645291160329,
-        "stop" : 1645291160504,
-        "duration" : 175
-      }
-    }, {
-      "uid" : "6ca11970c56bda86",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645291160329,
-        "stop" : 1645291160504,
-        "duration" : 175
+        "start" : 1645291399484,
+        "stop" : 1645291399670,
+        "duration" : 186
       }
     } ]
   },
@@ -503,29 +356,20 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "149a2d44d8cb2896",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/149a2d44d8cb2896",
+      "uid" : "1a45175858e49ffd",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/1a45175858e49ffd",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291159675,
-        "stop" : 1645291159675,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "ed3db8a36926c086",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159675,
-        "stop" : 1645291159675,
-        "duration" : 0
+        "start" : 1645291398901,
+        "stop" : 1645291398902,
+        "duration" : 1
       }
     } ]
   },
@@ -533,29 +377,20 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "d907cd1351f68ed7",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/d907cd1351f68ed7",
+      "uid" : "6d106a4fe6c36c68",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/6d106a4fe6c36c68",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291161402,
-        "stop" : 1645291161406,
-        "duration" : 4
-      }
-    }, {
-      "uid" : "5ec1c796b4da852d",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291161402,
-        "stop" : 1645291161406,
-        "duration" : 4
+        "start" : 1645291401475,
+        "stop" : 1645291401484,
+        "duration" : 9
       }
     } ]
   },
@@ -564,26 +399,18 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "1d0890372244dc0a",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/1d0890372244dc0a",
+      "uid" : "3d762463343530e0",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/3d762463343530e0",
       "status" : "passed",
       "time" : {
-        "start" : 1645291161764,
-        "stop" : 1645291161936,
-        "duration" : 172
-      }
-    }, {
-      "uid" : "ef196130189504e4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645291161764,
-        "stop" : 1645291161936,
-        "duration" : 172
+        "start" : 1645291401803,
+        "stop" : 1645291401981,
+        "duration" : 178
       }
     } ]
   },
@@ -591,28 +418,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "414429aea1ff6f0b",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/414429aea1ff6f0b",
+      "uid" : "577e66fd7a190e6e",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/577e66fd7a190e6e",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291159884,
-        "stop" : 1645291159884,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "f0d30a243e4f07cd",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159884,
-        "stop" : 1645291159884,
+        "start" : 1645291399087,
+        "stop" : 1645291399087,
         "duration" : 0
       }
     } ]
@@ -621,28 +439,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "5b7d8c7bcbc5d01",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/5b7d8c7bcbc5d01",
+      "uid" : "7ad865fd84dcf32a",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/7ad865fd84dcf32a",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291159676,
-        "stop" : 1645291159676,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "276b3be595564078",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291159676,
-        "stop" : 1645291159676,
+        "start" : 1645291398902,
+        "stop" : 1645291398902,
         "duration" : 0
       }
     } ]
@@ -651,29 +460,20 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "items" : [ {
-      "uid" : "75287223da16942c",
-      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/62//#testresult/75287223da16942c",
+      "uid" : "ad621da63a8121fe",
+      "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/63//#testresult/ad621da63a8121fe",
       "status" : "skipped",
       "statusDetails" : "Suite disabled",
       "time" : {
-        "start" : 1645291162096,
-        "stop" : 1645291162100,
-        "duration" : 4
-      }
-    }, {
-      "uid" : "ddab7132b1f05a8f",
-      "status" : "skipped",
-      "statusDetails" : "Suite disabled",
-      "time" : {
-        "start" : 1645291162096,
-        "stop" : 1645291162100,
-        "duration" : 4
+        "start" : 1645291402122,
+        "stop" : 1645291402127,
+        "duration" : 5
       }
     } ]
   }

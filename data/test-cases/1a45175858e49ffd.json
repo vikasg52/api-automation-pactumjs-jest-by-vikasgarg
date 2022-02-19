@@ -1,12 +1,12 @@
 {
-  "uid" : "149a2d44d8cb2896",
+  "uid" : "1a45175858e49ffd",
   "name" : "Partial update booking - total price & deposit paid",
   "fullName" : "test  suite5 Partial update booking - total price & deposit paid",
   "historyId" : "f6f480fc-a01f-5ada-9ddf-b935fe481d3d",
   "time" : {
-    "start" : 1645291159675,
-    "stop" : 1645291159675,
-    "duration" : 0
+    "start" : 1645291398901,
+    "stop" : 1645291398902,
+    "duration" : 1
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az128-572"
+    "value" : "fv-az138-675"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -44,28 +44,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 2,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "ed3db8a36926c086",
-        "status" : "skipped",
-        "statusDetails" : "Suite disabled",
-        "time" : {
-          "start" : 1645291159675,
-          "stop" : 1645291159675,
-          "duration" : 0
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "149a2d44d8cb2896.json",
+  "source" : "1a45175858e49ffd.json",
   "parameterValues" : [ ]
 }

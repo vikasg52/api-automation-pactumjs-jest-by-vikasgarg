@@ -1,12 +1,12 @@
 {
-  "uid" : "81ad789d992185bb",
+  "uid" : "1e70cb1cfea5ce15",
   "name" : "Get all IDs",
   "fullName" : "test  suite5 Get all IDs",
   "historyId" : "81d9bea6-af4c-5a27-976d-e59c998b5c1a",
   "time" : {
-    "start" : 1645291159878,
-    "stop" : 1645291159882,
-    "duration" : 4
+    "start" : 1645291399082,
+    "stop" : 1645291399085,
+    "duration" : 3
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az128-572"
+    "value" : "fv-az138-675"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -44,28 +44,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 2,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "f19a50cf9730abf9",
-        "status" : "skipped",
-        "statusDetails" : "Suite disabled",
-        "time" : {
-          "start" : 1645291159878,
-          "stop" : 1645291159882,
-          "duration" : 4
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "81ad789d992185bb.json",
+  "source" : "1e70cb1cfea5ce15.json",
   "parameterValues" : [ ]
 }
