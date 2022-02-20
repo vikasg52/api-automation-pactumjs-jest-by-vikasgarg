@@ -1,0 +1,71 @@
+{
+  "uid" : "41247e1db6a56519",
+  "name" : "Delete booking - valid",
+  "fullName" : "test  suite3 Delete booking - valid",
+  "historyId" : "95ba28e3-4351-54da-a613-18d4a53a591a",
+  "time" : {
+    "start" : 1645366112813,
+    "stop" : 1645366112816,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite3"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az148-888"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "859bb6557320226b",
+        "status" : "skipped",
+        "statusDetails" : "Suite disabled",
+        "time" : {
+          "start" : 1645366112813,
+          "stop" : 1645366112816,
+          "duration" : 3
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "41247e1db6a56519.json",
+  "parameterValues" : [ ]
+}
