@@ -1,12 +1,12 @@
 {
-  "uid" : "c6018881e4ac547e",
+  "uid" : "703d79eb7e2bde04",
   "name" : "Get booking ID by existent firstname and lastname",
   "fullName" : "test  suite5 Get booking ID by existent firstname and lastname",
   "historyId" : "b19b8509-1bd0-5801-b4b9-64e1275fa32e",
   "time" : {
-    "start" : 1645366110993,
-    "stop" : 1645366110994,
-    "duration" : 1
+    "start" : 1645366324512,
+    "stop" : 1645366324512,
+    "duration" : 0
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az148-888"
+    "value" : "fv-az123-917"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -44,28 +44,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 2,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "6bb984682de0f361",
-        "status" : "skipped",
-        "statusDetails" : "Suite disabled",
-        "time" : {
-          "start" : 1645366110993,
-          "stop" : 1645366110994,
-          "duration" : 1
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "c6018881e4ac547e.json",
+  "source" : "703d79eb7e2bde04.json",
   "parameterValues" : [ ]
 }

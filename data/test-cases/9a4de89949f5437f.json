@@ -1,12 +1,12 @@
 {
-  "uid" : "163a4c2e7aa85d11",
-  "name" : "Update booking - valid",
-  "fullName" : "test  suite6 Update booking - valid",
-  "historyId" : "ccfd8597-a583-5d4d-82c8-1346ec3da50a",
+  "uid" : "9a4de89949f5437f",
+  "name" : "Update booking - non-existent",
+  "fullName" : "test  suite6 Update booking - non-existent",
+  "historyId" : "b20a4389-509e-558e-a53d-af4c13fe7f4b",
   "time" : {
-    "start" : 1645366112234,
-    "stop" : 1645366112238,
-    "duration" : 4
+    "start" : 1645366326056,
+    "stop" : 1645366326056,
+    "duration" : 0
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az148-888"
+    "value" : "fv-az123-917"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -44,28 +44,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 2,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "a496b272115dde66",
-        "status" : "skipped",
-        "statusDetails" : "Suite disabled",
-        "time" : {
-          "start" : 1645366112234,
-          "stop" : 1645366112238,
-          "duration" : 4
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "163a4c2e7aa85d11.json",
+  "source" : "9a4de89949f5437f.json",
   "parameterValues" : [ ]
 }

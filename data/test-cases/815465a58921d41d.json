@@ -1,12 +1,12 @@
 {
-  "uid" : "efb6af4655515c27",
+  "uid" : "815465a58921d41d",
   "name" : "Create token - invalid password",
   "fullName" : "test  suite2 Create token - invalid password",
   "historyId" : "24f86cc5-bde5-53e1-ae60-f3ffefca8bfe",
   "time" : {
-    "start" : 1645366111497,
-    "stop" : 1645366111498,
-    "duration" : 1
+    "start" : 1645366325144,
+    "stop" : 1645366325144,
+    "duration" : 0
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az148-888"
+    "value" : "fv-az123-917"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -44,28 +44,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 2,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "90732314ef50a0c",
-        "status" : "skipped",
-        "statusDetails" : "Suite disabled",
-        "time" : {
-          "start" : 1645366111497,
-          "stop" : 1645366111498,
-          "duration" : 1
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "efb6af4655515c27.json",
+  "source" : "815465a58921d41d.json",
   "parameterValues" : [ ]
 }

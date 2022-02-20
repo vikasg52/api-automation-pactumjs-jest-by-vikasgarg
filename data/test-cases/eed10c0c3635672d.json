@@ -1,12 +1,12 @@
 {
-  "uid" : "1a8b798e5766ccd6",
+  "uid" : "eed10c0c3635672d",
   "name" : "(ProdTest) Get specific invalid ID",
   "fullName" : "test  suite4 (ProdTest) Get specific invalid ID",
   "historyId" : "6962a702-ae6c-5d16-9cca-16f4eb287244",
   "time" : {
-    "start" : 1645366111972,
-    "stop" : 1645366112083,
-    "duration" : 111
+    "start" : 1645366325688,
+    "stop" : 1645366325859,
+    "duration" : 171
   },
   "status" : "passed",
   "flaky" : false,
@@ -30,7 +30,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az148-888"
+    "value" : "fv-az123-917"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -43,27 +43,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 2,
-        "unknown" : 0,
-        "total" : 2
-      },
-      "items" : [ {
-        "uid" : "452d7f7250a005f0",
-        "status" : "passed",
-        "time" : {
-          "start" : 1645366111972,
-          "stop" : 1645366112083,
-          "duration" : 111
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "1a8b798e5766ccd6.json",
+  "source" : "eed10c0c3635672d.json",
   "parameterValues" : [ ]
 }
