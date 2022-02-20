@@ -1,0 +1,72 @@
+{
+  "uid" : "2cc51356093da9b8",
+  "name" : "Update booking - non-existent",
+  "fullName" : "test  suite6 Update booking - non-existent",
+  "historyId" : "b20a4389-509e-558e-a53d-af4c13fe7f4b",
+  "time" : {
+    "start" : 1645370655633,
+    "stop" : 1645370655634,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite6"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite6"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-154"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "34b04884fe9c1578",
+        "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/96//#testresult/34b04884fe9c1578",
+        "status" : "skipped",
+        "statusDetails" : "Suite disabled",
+        "time" : {
+          "start" : 1645370384413,
+          "stop" : 1645370384414,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2cc51356093da9b8.json",
+  "parameterValues" : [ ]
+}
