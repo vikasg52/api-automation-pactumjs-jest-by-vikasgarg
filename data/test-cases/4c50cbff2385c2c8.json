@@ -1,12 +1,12 @@
 {
-  "uid" : "b8acba2d9c2eb530",
-  "name" : "Delete booking - valid",
-  "fullName" : "test  suite3 Delete booking - valid",
-  "historyId" : "95ba28e3-4351-54da-a613-18d4a53a591a",
+  "uid" : "4c50cbff2385c2c8",
+  "name" : "Create token - invalid password",
+  "fullName" : "test  suite2 Create token - invalid password",
+  "historyId" : "24f86cc5-bde5-53e1-ae60-f3ffefca8bfe",
   "time" : {
-    "start" : 1645364201827,
-    "stop" : 1645364201830,
-    "duration" : 3
+    "start" : 1645364813488,
+    "stop" : 1645364813488,
+    "duration" : 0
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -19,10 +19,10 @@
     "value" : "01"
   }, {
     "name" : "package",
-    "value" : "test  suite3"
+    "value" : "test  suite2"
   }, {
     "name" : "parentSuite",
-    "value" : "test  suite3"
+    "value" : "test  suite2"
   }, {
     "name" : "framework",
     "value" : "jest"
@@ -31,7 +31,7 @@
     "value" : "typescript/javascript"
   }, {
     "name" : "host",
-    "value" : "fv-az135-693"
+    "value" : "fv-az128-572"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b8acba2d9c2eb530.json",
+  "source" : "4c50cbff2385c2c8.json",
   "parameterValues" : [ ]
 }
