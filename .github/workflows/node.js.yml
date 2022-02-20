@@ -21,6 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
+      id: testreport
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
@@ -28,7 +29,7 @@ jobs:
     - run: npm install -g allure-commandline --save-dev
     - run: npm ci
     - run: npm run sanity
-      if: ${{ failure() || success() }}
+      if: steps.testreport.exitcode > 0
     - run: npm run report
     - run: mv allure-report/history allure-results/
     
