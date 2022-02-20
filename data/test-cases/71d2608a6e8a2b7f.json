@@ -1,14 +1,15 @@
 {
-  "uid" : "91d9f3b447c2b7b6",
-  "name" : "(ProdTest):Create token - valid",
-  "fullName" : "test  suite2 (ProdTest):Create token - valid",
-  "historyId" : "383f48aa-0c00-59a7-9982-6f1850aba245",
+  "uid" : "71d2608a6e8a2b7f",
+  "name" : "Partial update booking - total price & deposit paid",
+  "fullName" : "test  suite5 Partial update booking - total price & deposit paid",
+  "historyId" : "f6f480fc-a01f-5ada-9ddf-b935fe481d3d",
   "time" : {
-    "start" : 1645367474379,
-    "stop" : 1645367474772,
-    "duration" : 393
+    "start" : 1645367626289,
+    "stop" : 1645367626290,
+    "duration" : 1
   },
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -18,10 +19,10 @@
     "value" : "01"
   }, {
     "name" : "package",
-    "value" : "test  suite2"
+    "value" : "test  suite5"
   }, {
     "name" : "parentSuite",
-    "value" : "test  suite2"
+    "value" : "test  suite5"
   }, {
     "name" : "framework",
     "value" : "jest"
@@ -45,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "91d9f3b447c2b7b6.json",
+  "source" : "71d2608a6e8a2b7f.json",
   "parameterValues" : [ ]
 }

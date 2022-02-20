@@ -1,12 +1,12 @@
 {
-  "uid" : "4c6b7aeb8f2e2f7f",
-  "name" : "Partial update booking - total price & deposit paid",
-  "fullName" : "test  suite5 Partial update booking - total price & deposit paid",
-  "historyId" : "f6f480fc-a01f-5ada-9ddf-b935fe481d3d",
+  "uid" : "bfc88c5de6352f20",
+  "name" : "Get booking ID - empty checkout date header",
+  "fullName" : "test  suite5 Get booking ID - empty checkout date header",
+  "historyId" : "c8ba164c-c3d0-515a-ba8a-d4e05ad06b30",
   "time" : {
-    "start" : 1645367473822,
-    "stop" : 1645367473822,
-    "duration" : 0
+    "start" : 1645367626575,
+    "stop" : 1645367626576,
+    "duration" : 1
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4c6b7aeb8f2e2f7f.json",
+  "source" : "bfc88c5de6352f20.json",
   "parameterValues" : [ ]
 }

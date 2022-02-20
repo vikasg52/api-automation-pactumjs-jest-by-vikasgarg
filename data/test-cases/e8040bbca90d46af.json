@@ -1,12 +1,12 @@
 {
-  "uid" : "5446e221d8ff8596",
-  "name" : "Get all IDs",
-  "fullName" : "test  suite5 Get all IDs",
-  "historyId" : "81d9bea6-af4c-5a27-976d-e59c998b5c1a",
+  "uid" : "e8040bbca90d46af",
+  "name" : "Partial update booking - firstname & lastname",
+  "fullName" : "test  suite5 Partial update booking - firstname & lastname",
+  "historyId" : "a20cbb36-dee8-5410-bb5d-aaf07f64b73b",
   "time" : {
-    "start" : 1645367474084,
-    "stop" : 1645367474090,
-    "duration" : 6
+    "start" : 1645367626269,
+    "stop" : 1645367626289,
+    "duration" : 20
   },
   "status" : "skipped",
   "statusMessage" : "Suite disabled",
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5446e221d8ff8596.json",
+  "source" : "e8040bbca90d46af.json",
   "parameterValues" : [ ]
 }

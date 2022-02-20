@@ -1,11 +1,11 @@
 {
-  "uid" : "c773356ada81acb0",
-  "name" : "Get booking ID by existent firstname",
-  "fullName" : "test  suite5 Get booking ID by existent firstname",
-  "historyId" : "bbe2e7bd-8db0-58ce-8d89-20ea6ab3c10c",
+  "uid" : "b919c210ed65a1f2",
+  "name" : "Get booking ID by existent firstname and lastname",
+  "fullName" : "test  suite5 Get booking ID by existent firstname and lastname",
+  "historyId" : "b19b8509-1bd0-5801-b4b9-64e1275fa32e",
   "time" : {
-    "start" : 1645367474091,
-    "stop" : 1645367474091,
+    "start" : 1645367626574,
+    "stop" : 1645367626574,
     "duration" : 0
   },
   "status" : "skipped",
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c773356ada81acb0.json",
+  "source" : "b919c210ed65a1f2.json",
   "parameterValues" : [ ]
 }

@@ -1,11 +1,11 @@
 {
-  "uid" : "1a3418c9dd186bac",
+  "uid" : "632d5b41edb68028",
   "name" : "Partial update booking - checkin & checkout date",
   "fullName" : "test  suite5 Partial update booking - checkin & checkout date",
   "historyId" : "d3e28335-18da-5c5b-b538-1b79b6b8c9da",
   "time" : {
-    "start" : 1645367473823,
-    "stop" : 1645367473823,
+    "start" : 1645367626290,
+    "stop" : 1645367626290,
     "duration" : 0
   },
   "status" : "skipped",
@@ -46,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1a3418c9dd186bac.json",
+  "source" : "632d5b41edb68028.json",
   "parameterValues" : [ ]
 }

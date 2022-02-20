@@ -1,14 +1,15 @@
 {
-  "uid" : "8e6519eae915885a",
-  "name" : "(ProdTest) Get specific valid ID without Accept header",
-  "fullName" : "test  suite4 (ProdTest) Get specific valid ID without Accept header",
-  "historyId" : "5b56545d-da9c-5773-a247-3549f8910ec0",
+  "uid" : "25b364e5d5f8797a",
+  "name" : "Get booking ID - empty checkin date header",
+  "fullName" : "test  suite5 Get booking ID - empty checkin date header",
+  "historyId" : "54fbc4ec-eb7e-5d8a-9544-3ffbb1b23760",
   "time" : {
-    "start" : 1645367475496,
-    "stop" : 1645367475746,
-    "duration" : 250
+    "start" : 1645367626575,
+    "stop" : 1645367626575,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "Suite disabled",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -18,10 +19,10 @@
     "value" : "01"
   }, {
     "name" : "package",
-    "value" : "test  suite4"
+    "value" : "test  suite5"
   }, {
     "name" : "parentSuite",
-    "value" : "test  suite4"
+    "value" : "test  suite5"
   }, {
     "name" : "framework",
     "value" : "jest"
@@ -45,6 +46,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8e6519eae915885a.json",
+  "source" : "25b364e5d5f8797a.json",
   "parameterValues" : [ ]
 }
