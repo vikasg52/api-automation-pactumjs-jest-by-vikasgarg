@@ -30,16 +30,17 @@ jobs:
     - run: npm install -g allure-commandline --save-dev
     - run: npm ci
     - run: npm run sanity
-    - run: mv allure-report/history allure-results/
+      if: always()
     - run: npm run report
+    - run: mv allure-report/history allure-results/
     
     - name: Test marketplace action
       uses: simple-elf/allure-report-action@master
       if: always()
       id: allure-report
       with:
-       gh_pages: gh-pages
-       allure_report: allure-report
+       allure-results: allure-results
+       #allure_report: allure-report
        allure_history: allure-history
 
     - name: Deploy report to Github Pages
