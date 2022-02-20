@@ -1,0 +1,185 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  200\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 200\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)",
+      "children" : [ {
+        "name" : "Partial update booking - firstname & lastname",
+        "uid" : "cfb6097e9764a958",
+        "parentUid" : "f7fa8376f36bc7863d7c52866587af8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381314981,
+          "stop" : 1645381315006,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Partial update booking - total price & deposit paid",
+        "uid" : "16b496dbb94602a8",
+        "parentUid" : "f7fa8376f36bc7863d7c52866587af8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381315007,
+          "stop" : 1645381315009,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Partial update booking - checkin & checkout date",
+        "uid" : "11c545b76e3c4884",
+        "parentUid" : "f7fa8376f36bc7863d7c52866587af8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381315009,
+          "stop" : 1645381315012,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Partial update booking - additional needs",
+        "uid" : "991b06032dfb100f",
+        "parentUid" : "f7fa8376f36bc7863d7c52866587af8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381315012,
+          "stop" : 1645381315014,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update booking - valid",
+        "uid" : "acb21a3c130e5988",
+        "parentUid" : "f7fa8376f36bc7863d7c52866587af8f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381318103,
+          "stop" : 1645381318113,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7fa8376f36bc7863d7c52866587af8f"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  405\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 405\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)",
+      "children" : [ {
+        "name" : "Partial update booking - non-existent booking",
+        "uid" : "a7c676b20a6a2c3",
+        "parentUid" : "274384d468f94261e85c159dfb2036f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381315014,
+          "stop" : 1645381315016,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Update booking - non-existent",
+        "uid" : "aa961ade8ea862da",
+        "parentUid" : "274384d468f94261e85c159dfb2036f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381318113,
+          "stop" : 1645381318115,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "274384d468f94261e85c159dfb2036f1"
+    }, {
+      "name" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  51\nReceived:\n  18\n\nMessage:\n  JSON Length 18 !== 51\n    at Expect._validateJsonLength (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:367:16)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:62:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "children" : [ {
+        "name" : "Get all IDs",
+        "uid" : "899a0e6bf3a08e7d",
+        "parentUid" : "3b7c75bf1dac9880c7246c3289d20d34",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381315273,
+          "stop" : 1645381315543,
+          "duration" : 270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b7c75bf1dac9880c7246c3289d20d34"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  [{\"bookingid\": 33}]\nReceived:\n  []\n\nDifference:\n\n- Expected\n+ Received\n\n- Array [\n-   Object {\n-     \"bookingid\": 33,\n-   },\n- ]\n+ Array []\n    at Expect._validateJson (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "children" : [ {
+        "name" : "Get booking ID by existent firstname",
+        "uid" : "aa45983f04cfb860",
+        "parentUid" : "aa6483cfe9ef475a76cc156f82aa7c0e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381315544,
+          "stop" : 1645381315742,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get booking ID by existent lastname",
+        "uid" : "5765a98eab027cec",
+        "parentUid" : "aa6483cfe9ef475a76cc156f82aa7c0e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381315743,
+          "stop" : 1645381315923,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get booking ID by existent firstname and lastname",
+        "uid" : "7a9890c4aaef375",
+        "parentUid" : "aa6483cfe9ef475a76cc156f82aa7c0e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381315923,
+          "stop" : 1645381316109,
+          "duration" : 186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa6483cfe9ef475a76cc156f82aa7c0e"
+    }, {
+      "name" : "assert.deepStrictEqual(received, expected)\n\nExpected value to deeply and strictly equal to:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2018-01-01\", \"checkout\": \"2019-01-01\"}, \"depositpaid\": true, \"firstname\": \"Kris\", \"lastname\": \"Mistry\", \"totalprice\": 111}\nReceived:\n  {\"additionalneeds\": \"Breakfast\", \"bookingdates\": {\"checkin\": \"2013-02-23\", \"checkout\": \"2014-10-23\"}, \"depositpaid\": true, \"firstname\": \"Sally\", \"lastname\": \"Brown\", \"totalprice\": 111}\n\nDifference:\n\n- Expected\n+ Received\n\n  Object {\n    \"additionalneeds\": \"Breakfast\",\n    \"bookingdates\": Object {\n-     \"checkin\": \"2018-01-01\",\n-     \"checkout\": \"2019-01-01\",\n+     \"checkin\": \"2013-02-23\",\n+     \"checkout\": \"2014-10-23\",\n    },\n    \"depositpaid\": true,\n-   \"firstname\": \"Kris\",\n-   \"lastname\": \"Mistry\",\n+   \"firstname\": \"Sally\",\n+   \"lastname\": \"Brown\",\n    \"totalprice\": 111,\n  }\n    at Expect._validateJson (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:214:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:52:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "children" : [ {
+        "name" : "(ProdTest)Get specific valid ID",
+        "uid" : "a89163920e536e3a",
+        "parentUid" : "03daa520571d695f4e1b4966436d5704",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645381317381,
+          "stop" : 1645381317571,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03daa520571d695f4e1b4966436d5704"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
