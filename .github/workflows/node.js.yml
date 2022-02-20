@@ -28,7 +28,7 @@ jobs:
     - run: npm install -g allure-commandline --save-dev
     - run: npm ci
     - run: npm run sanity
-      if: success() || failure()
+      if: error() || success() || failure()
     - run: npm run report
     - run: mv allure-report/history allure-results/
     
