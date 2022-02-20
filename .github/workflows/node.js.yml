@@ -30,14 +30,6 @@ jobs:
     - run: npm ci
     - run: npm run sanity
     
-    - name: Get Allure history
-      uses: actions/checkout@v2
-      if: always()
-      continue-on-error: true
-      with:
-          ref: gh-pages
-          path: gh-pages
-    
     - name: Allure Report action from marketplace
       uses: simple-elf/allure-report-action@master
       if: always()
@@ -47,6 +39,14 @@ jobs:
           #gh_pages: gh-pages
           #allure_report: allure-report
           allure_history: allure-history
+          
+    - name: Get Allure history
+      uses: actions/checkout@v2
+      if: always()
+      continue-on-error: true
+      with:
+          ref: gh-pages
+          path: gh-pages
 
     - name: Deploy report to Github Pages
       if: always()
