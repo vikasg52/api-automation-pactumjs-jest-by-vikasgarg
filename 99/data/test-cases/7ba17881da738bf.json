@@ -1,0 +1,97 @@
+{
+  "uid" : "7ba17881da738bf",
+  "name" : "Partial update booking - non-existent booking",
+  "fullName" : "test  suite5 Partial update booking - non-existent booking",
+  "historyId" : "afb0b17d-5446-5e86-a37e-44782ef89092",
+  "time" : {
+    "start" : 1646040649233,
+    "stop" : 1646040649236,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "statusMessage" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  405\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 405\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)",
+  "statusTrace" : "Error: \n    at Env.fail (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/jest-jasmine2/build/jasmine/Env.js:695:59)\n    at Function.next.fail (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/jest-jasmine2/build/queueRunner.js:84:22)\n    at /home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:187:18",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite5"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite5"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-735"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a7c676b20a6a2c3",
+        "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/98//#testresult/a7c676b20a6a2c3",
+        "status" : "failed",
+        "statusDetails" : "assert.strictEqual(received, expected)\n\nExpected value to strictly be equal to:\n  405\nReceived:\n  undefined\n\nMessage:\n  HTTP status undefined !== 405\n\nDifference:\n\n  Comparing two different types of values. Expected number but received undefined.\n    at Expect._validateStatus (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:100:14)\n    at Expect.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/expect.js:45:10)\n    at Tosser.validateResponse (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:225:23)\n    at Tosser.validate (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:192:18)\n    at Tosser.toss (/home/runner/work/api-automation-pactumjs-jest-by-vikasgarg/api-automation-pactumjs-jest-by-vikasgarg/node_modules/pactum/src/models/Tosser.js:42:18)",
+        "time" : {
+          "start" : 1645381315014,
+          "stop" : 1645381315016,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "862d15ce9db5045c",
+        "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/97//#testresult/862d15ce9db5045c",
+        "status" : "skipped",
+        "statusDetails" : "Suite disabled",
+        "time" : {
+          "start" : 1645370647505,
+          "stop" : 1645370647516,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "6af5d36015618732",
+        "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/96//#testresult/6af5d36015618732",
+        "status" : "skipped",
+        "statusDetails" : "Suite disabled",
+        "time" : {
+          "start" : 1645370383111,
+          "stop" : 1645370383111,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7ba17881da738bf.json",
+  "parameterValues" : [ ]
+}

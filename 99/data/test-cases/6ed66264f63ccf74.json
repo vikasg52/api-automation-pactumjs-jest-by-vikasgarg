@@ -1,0 +1,88 @@
+{
+  "uid" : "6ed66264f63ccf74",
+  "name" : "(ProdTest) Get specific valid ID without Accept header",
+  "fullName" : "test  suite4 (ProdTest) Get specific valid ID without Accept header",
+  "historyId" : "5b56545d-da9c-5773-a247-3549f8910ec0",
+  "time" : {
+    "start" : 1646040652503,
+    "stop" : 1646040652727,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "01"
+  }, {
+    "name" : "package",
+    "value" : "test  suite4"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test  suite4"
+  }, {
+    "name" : "framework",
+    "value" : "jest"
+  }, {
+    "name" : "language",
+    "value" : "typescript/javascript"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-735"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "893111c6aa9473aa",
+        "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/98//#testresult/893111c6aa9473aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645381317571,
+          "stop" : 1645381317749,
+          "duration" : 178
+        }
+      }, {
+        "uid" : "4bf896f1eaad5f45",
+        "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/97//#testresult/4bf896f1eaad5f45",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645370653890,
+          "stop" : 1645370654136,
+          "duration" : 246
+        }
+      }, {
+        "uid" : "9f9bde1031374420",
+        "reportUrl" : "https://vikasg52.github.io/api-automation-pactumjs-jest-by-vikasgarg/96//#testresult/9f9bde1031374420",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645370384081,
+          "stop" : 1645370384119,
+          "duration" : 38
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6ed66264f63ccf74.json",
+  "parameterValues" : [ ]
+}
