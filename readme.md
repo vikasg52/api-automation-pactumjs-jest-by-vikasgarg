@@ -1,7 +1,7 @@
 # PactumJS-Jest-RestfulBooker-By-VikasGarg
 
 
-Application under test: [Restful Booker](https://github.com/vikasg52/api-automation-pactumjs-jest-by-vikasgarg) 
+Application under test: [Restful Booker](https://restful-booker.herokuapp.com/) 
 API framework: [PactumJS](https://pactumjs.github.io/)  
 Testing framework: [Jest](https://jestjs.io//)  
 Reporting Framework: [Allure] (https://docs.qameta.io/allure/)
